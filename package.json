@@ -15,9 +15,9 @@
 , "main" : "./index"
 , "bin" : { "juggernaut" : "./server.js" }
 , "dependencies" :
-  { "socket.io" : "=0.9.5"
+  { "socket.io" : "=0.9.9"
   , "redis" : "~0.7.1"
-  , "node-static-maccman" : "git://github.com/maccman/node-static.git#8aa80828ee"
+  , "node-static" : "~0.6.0"
   , "optimist": "~0.2.3"
   }
 }
